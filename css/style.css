@@ -412,3 +412,33 @@
 .carousel-item img {
   max-height: 100%;
 }
+
+input[type="file"] {
+  display: none;
+}
+
+#file-label {
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  padding: 15px 40px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  user-select: none;
+  cursor: pointer;
+  box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.35px);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#file-label .icon-upload {
+  color: #fff;
+}
+
+#tab-pane-4 .img-div img {
+  object-fit: cover;
+  object-position: 100% 100%;
+}
