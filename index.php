@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -488,9 +489,12 @@
                         <div class="ps-4">
                             <h5 class="mb-3">Expert Fleet Accident and Body Repair Services</h5>
                             <p>
-                                Auto restoration requires a high level of expertise in repair and refurbishment. Owning
-                                a vintage car is not just a privilege but a source of immense pride. We understand your
-                                passion for preserving its timeless beauty and are dedicated to keeping it in pristine
+                                Auto restoration requires a high level of expertise in repair and refurbishment.
+                                Owning
+                                a vintage car is not just a privilege but a source of immense pride. We understand
+                                your
+                                passion for preserving its timeless beauty and are dedicated to keeping it in
+                                pristine
                                 condition.
                             </p>
                             <!-- <a class="text-secondary border-bottom" href="">Read More</a> -->
@@ -506,7 +510,8 @@
                             </h5>
                             <p>
                                 At The SpeedX, we bring your vision to life. Whether you’re looking for subtle
-                                enhancements or a complete transformation, we specialize in vehicle modifications like
+                                enhancements or a complete transformation, we specialize in vehicle modifications
+                                like
                                 Color-Coded Bodywork.
                             </p>
                             <!-- <a class="text-secondary border-bottom" href="">Read More</a> -->
@@ -519,8 +524,10 @@
                         <div class="ps-4">
                             <h5 class="mb-3">Full Vintage Car Restoration</h5>
                             <p>
-                                Auto restoration is a specialized craft that requires precision and expertise in repair
-                                and refurbishment. Owning a vintage car is a true source of pride and joy, and we fully
+                                Auto restoration is a specialized craft that requires precision and expertise in
+                                repair
+                                and refurbishment. Owning a vintage car is a true source of pride and joy, and we
+                                fully
                                 appreciate your passion for maintaining its timeless beauty and originality.
                             </p>
                             <!-- <a class="text-secondary border-bottom" href="">Read More</a> -->
@@ -601,7 +608,7 @@
                     <div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
                         data-wow-delay="0.6s">
                         <h1 class="text-white mb-4">Book For A Service</h1>
-                        <form method="post">
+                        <form action="send.php" method="POST">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <input type="text" name="name" id="name" required class="form-control border-0"
@@ -624,8 +631,6 @@
                                         style="height: 55px" />
                                 </div>
 
-
-
                                 <div class="col-12">
                                     <input type="file" id="file" name="file" class="form-control border-0"
                                         placeholder="Special Request"></input>
@@ -635,14 +640,14 @@
                                 <div class="col-12">
                                     <label id="file-label" for="file">
                                         <i class="icon-upload fa fa-upload me-1"></i>
-                                        Upload File
+                                        Upload Pictures
                                     </label>
 
                                 </div>
 
 
                                 <div class="col-12">
-                                    <button class="btn btn-secondary w-100 py-3" type="submit">
+                                    <button class="btn btn-secondary w-100 py-3" name="submitContact" type="submit">
                                         Book Now
                                     </button>
                                 </div>
@@ -882,9 +887,25 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+    var msgTxt =
+        "<?= $_SESSION['status'] ?? '';?>";
+
+    if (msgTxt != '') {
+        Swal.fire({
+            title: 'Thank You!',
+            text: msgTxt,
+            icon: 'success',
+            confirmButtonText: 'Cool'
+        });
+        <?php unset($_SESSION['status']) ?>
+    }
+    </script>
 </body>
 
 </html>
