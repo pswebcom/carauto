@@ -147,7 +147,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -441,4 +441,9 @@ input[type="file"] {
 #tab-pane-4 .img-div img {
   object-fit: cover;
   object-position: 100% 100%;
+}
+
+#btnSubmit:active {
+  background-color: #fff;
+  color: black;
 }

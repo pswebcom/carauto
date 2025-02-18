@@ -52,10 +52,10 @@
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
                     <small>123 Street, New York, USA</small>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center py-3">
+                <!-- <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2"></small>
                     <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
-                </div>
+                </div> -->
             </div>
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
@@ -110,7 +110,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/img100.jpeg" alt="Image" />
+                    <img class="w-100" src="img/img104.jpeg" alt="Image" />
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
@@ -119,7 +119,7 @@
                                         // Car Servicing //
                                     </h6>
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
-                                        Qualified Car Repair Service Center
+                                        Auto Body Collision Center
                                     </h1>
                                     <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/img105.jpeg" alt="Image" />
+                    <img class="w-100" src="img/img100.jpeg" alt="Image" />
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
@@ -141,8 +141,7 @@
                                         // Car Servicing //
                                     </h6>
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
-                                        Qualified Car Wash Service Center
-                                    </h1>
+                                        Quality is Perfection </h1>
                                     <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
@@ -608,7 +607,7 @@
                     <div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
                         data-wow-delay="0.6s">
                         <h1 class="text-white mb-4">Book For A Service</h1>
-                        <form action="send.php" method="POST">
+                        <form action="send.php" method="POST" enctype="multipart/form-data">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <input type="text" name="name" id="name" required class="form-control border-0"
@@ -632,13 +631,12 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <input type="file" id="file" name="file" class="form-control border-0"
+                                    <input type="file" id="image" name="image" class="form-control border-0"
                                         placeholder="Special Request"></input>
                                 </div>
 
-
                                 <div class="col-12">
-                                    <label id="file-label" for="file">
+                                    <label id="file-label" for="image">
                                         <i class="icon-upload fa fa-upload me-1"></i>
                                         Upload Pictures
                                     </label>
@@ -647,7 +645,8 @@
 
 
                                 <div class="col-12">
-                                    <button class="btn btn-secondary w-100 py-3" name="submitContact" type="submit">
+                                    <button class="btn btn-secondary w-100 py-3" id="btnSubmit" name="submitContact"
+                                        type="submit">
                                         Book Now
                                     </button>
                                 </div>
@@ -823,9 +822,11 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Opening Hours</h4>
                     <h6 class="text-light">Monday - Friday:</h6>
-                    <p class="mb-4">09.00 AM - 09.00 PM</p>
-                    <h6 class="text-light">Saturday - Sunday:</h6>
-                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                    <p class="mb-2">09.00 AM - 07.00 PM</p>
+                    <h6 class="text-light">Saturday:</h6>
+                    <p class="mb-2">09.00 AM - 05.00 PM</p>
+                    <h6 class="text-light">Sunday:</h6>
+                    <p class="mb-0">10.00 AM - 05.00 PM</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Services</h4>
@@ -889,6 +890,8 @@
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+
+
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
@@ -901,7 +904,7 @@
             title: 'Thank You!',
             text: msgTxt,
             icon: 'success',
-            confirmButtonText: 'Cool'
+            confirmButtonText: 'Okay!'
         });
         <?php unset($_SESSION['status']) ?>
     }

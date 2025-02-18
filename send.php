@@ -11,20 +11,20 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 
-
 if (isset($_POST['submitContact'])) {
-
     $name = $_POST['name'];
     $email = $_POST['email'];
     $tel = $_POST['tel'];
     $vehicle = $_POST['vehicle'];
+    $image = $_FILES['image']['tmp_name'];
+
+
 
 
 
 
     //Create an instance; passing `true` enables exceptions
     $mail = new PHPMailer(true);
-
     try {
         //Server settings
         $mail->isSMTP();                                            //Send using SMTP
@@ -40,9 +40,11 @@ if (isset($_POST['submitContact'])) {
         $mail->addAddress('puneet6152@gmail.com', 'Joe User');     //Add a recipient
 
 
-        // //Attachments
-        // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
+        //Attachments
+        $mail->addAttachment($image, 'Demo_Files/Image.jpg');  //Add attachments
         // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+        // $mail->addAttachment('/tmp/image.jpg', $image);    //Optional name
+
 
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
@@ -54,9 +56,8 @@ if (isset($_POST['submitContact'])) {
                     <h4>Vehicle Info:'.$vehicle.'</h4>
     ';
 
-
         if ($mail->send()) {
-            $_SESSION['status'] = "Thank you for contacting us";
+            $_SESSION['status'] = "We will contact you in 1-2 business days";
             header("Location:{$_SERVER["HTTP_REFERER"]}");
             exit(0);
         } else {
@@ -65,12 +66,11 @@ if (isset($_POST['submitContact'])) {
             exit(0);
         }
 
-
         echo 'Message has been sent';
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 } else {
-    header('Location:index.php');
+    header('Location:404.php');
     exit(0);
 }
