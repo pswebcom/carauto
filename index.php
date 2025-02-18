@@ -77,7 +77,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>CarServ</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -617,12 +617,11 @@
                                     <input type="email" name="email" id="email" class="form-control border-0"
                                         placeholder="Your Email" style="height: 55px" />
                                 </div>
-
-
-
                                 <div class="col-12 col-sm-6">
-                                    <input type="tel" name="tel" id="tel" required class="form-control border-0"
-                                        placeholder="Your Phone Number" style="height: 55px" />
+                                    <input type="tel" name="tel" id="tel" maxlength="14"
+                                        pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required
+                                        class="form-control border-0" placeholder="Your Phone Number"
+                                        style="height: 55px" />
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <input type="text" name="vehicle" id="vehicle" required
@@ -635,27 +634,33 @@
                                         placeholder="Special Request"></input>
                                 </div>
 
-                                <div class="col-12">
+                                <div class="col-12 txtarea">
+                                    <textarea name="message" id="message" class="form-control" style="height: 100px;"
+                                        placeholder="Message"></textarea>
+                                </div>
+
+                                <div class=" col-12">
                                     <label id="file-label" for="image">
                                         <i class="icon-upload fa fa-upload me-1"></i>
-                                        Upload Pictures
+                                        Upload Picture
                                     </label>
 
                                 </div>
 
-
-                                <div class="col-12">
+                                <div class=" col-12">
                                     <button class="btn btn-secondary w-100 py-3" id="btnSubmit" name="submitContact"
                                         type="submit">
                                         Book Now
                                     </button>
                                 </div>
+
                             </div>
-                        </form>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Booking End -->
 
@@ -904,7 +909,7 @@
             title: 'Thank You!',
             text: msgTxt,
             icon: 'success',
-            confirmButtonText: 'Okay!'
+            confirmButtonText: 'Back to Website !'
         });
         <?php unset($_SESSION['status']) ?>
     }
