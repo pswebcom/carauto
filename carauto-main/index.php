@@ -27,6 +27,9 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
 
@@ -64,15 +67,21 @@
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <a class="btn btn-sm-square bg-white text-primary me-1"
-                        href="https://www.facebook.com/share/18kcemgUj2/"><i class="fab fa-facebook-f"></i></a>
+                        href="https://www.facebook.com/share/18kcemgUj2/" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
                     <!-- <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a> -->
                     <a class="btn btn-sm-square bg-white text-primary me-1"
-                        href="https://www.tiktok.com/discover/speedx-auto-collision-brampton">
-                        <i class="fab fa-tiktok"></i>
+                        href="https://www.tiktok.com/discover/speedx-auto-collision-brampton" target="_blank">
+                        <!-- <img src="./img/tiktok.svg" class="red" alt=""> -->
+                        <i class="bi bi-tiktok"></i>
+                        <!-- <i class="bi-alarm"></i> -->
+
                     </a>
                     <a class="btn btn-sm-square bg-white text-primary me-0"
-                        href="https://www.instagram.com/speedx_auto_collision?igsh=eTh4MHF2OTRqbW94"><i
-                            class="fab fa-instagram"></i></a><i class="fa-brands fa-tiktok"></i>
+                        href="https://www.instagram.com/speedx_auto_collision?igsh=eTh4MHF2OTRqbW94" target="_blank">
+                        <i class="fab fa-instagram"></i></a><i class="fa-brands fa-tiktok"></i>
+
+
                 </div>
             </div>
         </div>
@@ -165,7 +174,7 @@
     <!-- //*************************************** -->
 
     <!-- Service Start -->
-    <div class="container-xxl service py-5">
+    <!-- <div class="container-xxl service py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="text-primary text-uppercase">// Our Services //</h6>
@@ -177,7 +186,7 @@
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
                             data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
                             <i class="fa fa-car-side fa-2x me-3"></i>
-                            <h4 class="m-0">Diagnostic Test</h4>
+                            <h4 class="m-0">Collision Repair</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
                             data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
@@ -211,10 +220,10 @@
                                         15 Years Of Experience In Auto Servicing
                                     </h3>
                                     <p class="mb-4">
-                                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                                        sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                                        lorem et sit, sed stet lorem sit clita duo justo magna
-                                        dolore erat amet
+                                        We understand the whirlwind of emotions, stress, and uncertainty that follows an
+                                        accident. That’s why we’ve tailored our services to offer more than just
+                                        repairs. We aim to provide peace of mind, transparency, and a hassle-free
+                                        experience from start to finish.
                                     </p>
                                     <p>
                                         <i class="fa fa-check text-success me-3"></i>Quality
@@ -345,7 +354,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Service End -->
 
     <!-- ******************************************* -->
@@ -758,6 +767,7 @@
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 
 
