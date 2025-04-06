@@ -53,7 +53,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small class="phone">181 Rutherford Road S Unit-11 Brampton</small>
+                    <small class="phone">181 Rutherford Road S Unit-11 Brampton, ON, L6W 3P4</small>
                 </div>
                 <!-- <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2"></small>
@@ -72,10 +72,7 @@
                     <!-- <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a> -->
                     <a class="btn btn-sm-square bg-white text-primary me-1"
                         href="https://www.tiktok.com/discover/speedx-auto-collision-brampton" target="_blank">
-                        <!-- <img src="./img/tiktok.svg" class="red" alt=""> -->
                         <i class="bi bi-tiktok"></i>
-                        <!-- <i class="bi-alarm"></i> -->
-
                     </a>
                     <a class="btn btn-sm-square bg-white text-primary me-0"
                         href="https://www.instagram.com/speedx_auto_collision?igsh=eTh4MHF2OTRqbW94" target="_blank">
@@ -105,12 +102,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.php" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="service.html" class="nav-item nav-link">Our Services</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
-            <a href="#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i
-                    class="fa fa-arrow-right ms-3"></i></a>
+            <a href="https://pixlbyte.info/index.php#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get
+                A
+                Quote<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -129,7 +127,7 @@
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
                                         Auto Body Collision Center
                                     </h1>
-                                    <a href="http://localhost:90/git/carauto-main/service.html"
+                                    <a href="https://pixlbyte.info/service.html"
                                         class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
@@ -149,7 +147,8 @@
 
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
                                         Quality is Perfection </h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
+                                    <a href="https://pixlbyte.info/service.html"
+                                        class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
@@ -377,7 +376,6 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h6 class="text-primary text-uppercase">// About Us //</h6>
                     <h1 class="mb-4">
                         <span class="text-primary">Speedx</span> Is The Best Place For
                         Your Auto Care
@@ -426,7 +424,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="http://localhost:90/git/carauto-main/about.html" class="btn btn-primary py-3 px-5">Read
+                    <a href="https://pixlbyte.info/about.html" class="btn btn-primary py-3 px-5">Read
                         More<i class="fa fa-arrow-right ms-3"></i></a>
                 </div>
             </div>
@@ -488,12 +486,10 @@
                             Certified and Award Winning Car Repair Service Provider
                         </h1>
                         <p class="text-white mb-0">
-                            Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd
-                            ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo
-                            rebum sea invidunt voluptua. Eos vero eos vero ea et dolore
-                            eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores
-                            magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus
-                            sed.
+                            Looking for reliable collision repair nearby? Your search ends here. Auto Hut in Brampton is
+                            known for outstanding service and trusted reviews, making us the preferred choice for all
+                            your auto repair needs—from minor dent fixes to detailed accident repair estimates. Our
+                            expert frame repair technicians are ready to help.
                         </p>
                     </div>
                 </div>
@@ -512,8 +508,7 @@
                                         placeholder="Your Email" style="height: 55px" />
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="tel" name="tel" id="tel" maxlength="14"
-                                        pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required
+                                    <input type="tel" name="tel" id="tel" maxlength="14" required
                                         class="form-control border-0" placeholder="Your Phone Number"
                                         style="height: 55px" />
                                 </div>
@@ -559,17 +554,16 @@
     <!-- Booking End -->
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-primary text-uppercase">// Our Technicians //</h6>
                 <h1 class="mb-5">Our Expert Technicians</h1>
             </div>
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6  fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="" />
+                            <img class="img-fluid" src="img/img100.jpg" alt="m1" />
                             <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -585,7 +579,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="" />
+                            <img class="img-fluid" src="img/img100.jpg" alt="m1" />
                             <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -601,7 +595,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="" />
+                            <img class="img-fluid" src="img/img100.jpg" alt="m1" />
                             <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -617,7 +611,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="" />
+                            <img class="img-fluid" src="img/img100.jpg" alt="m1" />
                             <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -632,62 +626,65 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Team End -->
 
     <!-- Testimonial Start -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center">
-                <h6 class="text-primary text-uppercase">// Testimonial //</h6>
                 <h1 class="mb-5">Our Clients Say!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg"
-                        style="width: 80px; height: 80px" />
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
+                    <!-- <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg"
+                        style="width: 80px; height: 80px" /> -->
+                    <h5 class="mb-2">Harjas Kaile</h5>
+                    <!-- <p>Profession</p> -->
                     <div class="testimonial-text bg-light text-center p-4">
                         <p class="mb-0">
-                            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-                            amet diam et eos. Clita erat ipsum et lorem et sit.
+                            "I took my RAM 1500 in for bodywork after getting rear ended, and the experience was great.
+                            The team took care of everything, including the insurance paperwork, which made the whole
+                            process easy and stress free for me."
                         </p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg"
-                        style="width: 80px; height: 80px" />
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
+                    <!-- <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg"
+                        style="width: 80px; height: 80px" /> -->
+                    <h5 class="mb-2">Taranveer Gosal</h5>
+                    <!-- <p>Profession</p> -->
                     <div class="testimonial-text bg-light text-center p-4">
                         <p class="mb-0">
-                            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-                            amet diam et eos. Clita erat ipsum et lorem et sit.
+                            "I had my 2020 Honda CR-V repaired after a major collision, and the experience was
+                            outstanding. They handled everything seamlessly, from 24/7 towing to working directly with
+                            insurance companies, making a stressful situation incredibly easy."
                         </p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg"
-                        style="width: 80px; height: 80px" />
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
+                    <!-- <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg"
+                        style="width: 80px; height: 80px" /> -->
+                    <h5 class="mb-2">Ravinder Randhawa</h5>
+                    <!-- <p>Profession</p> -->
                     <div class="testimonial-text bg-light text-center p-4">
                         <p class="mb-0">
-                            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-                            amet diam et eos. Clita erat ipsum et lorem et sit.
+                            I got my 2024 honda crv repaired from speedx auto collision , service is beyond imagination
+                            very reasonable and professional service highly recommended if u got into accident or any
+                            kind of body repair.
                         </p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg"
-                        style="width: 80px; height: 80px" />
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
+                    <!-- <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg"
+                        style="width: 80px; height: 80px" /> -->
+                    <h5 class="mb-2">Abhishek Saini</h5>
+                    <!-- <p>Profession</p> -->
                     <div class="testimonial-text bg-light text-center p-4">
                         <p class="mb-0">
-                            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-                            amet diam et eos. Clita erat ipsum et lorem et sit.
+                            I repaired jetta dent.
+                            They worked very goods even their behaviour was so good with clients.
+                            I recommend to all that visit to get your car repaired y certified technician.
                         </p>
                     </div>
                 </div>
@@ -703,19 +700,23 @@
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2">
-                        <i class="fa fa-map-marker-alt me-3"></i>181 Rutherford Road S Unit-11 Brampton
+                        <i class="fa fa-map-marker-alt me-3"></i>181 Rutherford Road S Unit-11 Brampton, ON, L6W 3P4
                     </p>
                     <p class="mb-2">
                         <i class="fa fa-phone-alt me-3"></i>+416 277 9221
                     </p>
                     <p class="mb-2">
-                        <i class="fa fa-envelope me-3"></i>info@example.com
+                        <i class="fa fa-envelope me-3"></i>speedxautocollision@gmail.com
                     </p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/share/18kcemgUj2/"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.tiktok.com/discover/speedx-auto-collision-brampton" target="_blank"><i
+                                class="bi bi-tiktok"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.instagram.com/speedx_auto_collision?igsh=eTh4MHF2OTRqbW94"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -729,7 +730,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Services</h4>
-                    <p class="">Diagnostic Test</p>
+                    <p class="">Collision Repair</p>
                     <p class="" href="">Automobile Paint</p>
                     <p class="" href="">Auto Glass Repair</p>
                     <p class="" href="">Car Washing</p>

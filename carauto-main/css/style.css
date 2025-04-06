@@ -10,6 +10,10 @@
   color: #d81324;
 }
 
+.navbar-nav a {
+  font-size: 1.1rem !important;
+}
+
 .phone {
   font-size: 1rem;
 }
@@ -25,7 +29,7 @@
   width: 100% !important;
   position: absolute;
   left: -47px;
-  top: -36px;
+  top: -35px;
 }
 
 .fw-medium {
@@ -210,6 +214,12 @@
   }
 }
 
+@media (max-width: 992px) {
+  .logo .img {
+    left: -24px;
+  }
+}
+
 @media (max-width: 768px) {
   #header-carousel .carousel-item {
     position: relative;
@@ -221,6 +231,12 @@
     width: 100%;
     max-height: 100%;
     object-fit: cover;
+  }
+}
+
+@media (max-width: 368px) {
+  .logo {
+    width: 180px !important;
   }
 }
 

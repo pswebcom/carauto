@@ -97,12 +97,12 @@ if (isset($_POST['submitContact'])) {
 
                 $_SESSION['status'] = "We will contact you within 24 hours";
                 // header("Location:{$_SERVER["HTTP_REFERER"]}");
-                header("Location: http://localhost:90/git/carauto-main/index.php");
+                header("Location: https://pixlbyte.info/index.php");
                 exit(0);
             } else {
                 $_SESSION['status'] = "Message could not be sent.Mailer error:{$email->ErrorInfo}";
                 // header("Location:{$_SERVER["HTTP_REFERER"]}");
-                header("Location: http://localhost:90/git/carauto-main/index.php");
+                header("Location: https://pixlbyte.info/index.php");
                 exit(0);
             }
             echo 'Message has been sent';
