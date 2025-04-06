@@ -42,11 +42,11 @@ if (isset($_POST['submitContact'])) {
             $mail->isHTML(true);                                  //Set email format to HTML
             $mail->Subject = 'Here is the subject';
             $mail->Body    = 'There is a new Message from your SpeedX website!</b>
-                    <h4>Name:'.$name.'</h4>
-                    <h4>Email:'.$email.'</h4>
-                    <h4>Phone:'.$tel.'</h4>
-                    <h4>Vehicle Info:'.$vehicle.'</h4>
-                    <p>Message:'.$message.'</p>
+                    <h4>Name:' . $name . '</h4>
+                    <h4>Email:' . $email . '</h4>
+                    <h4>Phone:' . $tel . '</h4>
+                    <h4>Vehicle Info:' . $vehicle . '</h4>
+                    <p>Message:' . $message . '</p>
     ';
             if ($mail->send()) {
 
@@ -62,7 +62,6 @@ if (isset($_POST['submitContact'])) {
         } catch (Exception $e) {
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
-
     } else {
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -87,21 +86,23 @@ if (isset($_POST['submitContact'])) {
             $mail->isHTML(true);                                  //Set email format to HTML
             $mail->Subject = 'Here is the subject';
             $mail->Body    = 'There is a new Message from your SpeedX website!</b>
-                        <h4>Name:'.$name.'</h4>
-                        <h4>Email:'.$email.'</h4>
-                        <h4>Phone:'.$tel.'</h4>
-                        <h4>Vehicle Info:'.$vehicle.'</h4>
-                        <p>Message:'.$message.'</p>
+                        <h4>Name:' . $name . '</h4>
+                        <h4>Email:' . $email . '</h4>
+                        <h4>Phone:' . $tel . '</h4>
+                        <h4>Vehicle Info:' . $vehicle . '</h4>
+                        <p>Message:' . $message . '</p>
         ';
 
             if ($mail->send()) {
 
                 $_SESSION['status'] = "We will contact you within 24 hours";
-                header("Location:{$_SERVER["HTTP_REFERER"]}");
+                // header("Location:{$_SERVER["HTTP_REFERER"]}");
+                header("Location: http://localhost:90/git/carauto-main/index.php");
                 exit(0);
             } else {
                 $_SESSION['status'] = "Message could not be sent.Mailer error:{$email->ErrorInfo}";
-                header("Location:{$_SERVER["HTTP_REFERER"]}");
+                // header("Location:{$_SERVER["HTTP_REFERER"]}");
+                header("Location: http://localhost:90/git/carauto-main/index.php");
                 exit(0);
             }
             echo 'Message has been sent';
@@ -109,8 +110,6 @@ if (isset($_POST['submitContact'])) {
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
     }
-
-
 } else {
     header('Location:404.php');
     exit(0);

@@ -95,18 +95,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="index.php" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="service.html" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-up m-0">
-                        <a href="booking.html" class="dropdown-item">Booking</a>
-                        <a href="team.html" class="dropdown-item">Technicians</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
             <a href="#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i
@@ -131,7 +122,8 @@
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
                                         Auto Body Collision Center
                                     </h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
+                                    <a href="http://localhost:90/git/carauto-main/service.html"
+                                        class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
@@ -911,18 +903,18 @@
     <script src="js/main.js"></script>
 
     <script>
-    var msgTxt =
-        "<?= $_SESSION['status'] ?? ''; ?>";
+        var msgTxt =
+            "<?= $_SESSION['status'] ?? ''; ?>";
 
-    if (msgTxt != '') {
-        Swal.fire({
-            title: 'Thank You!',
-            text: msgTxt,
-            icon: 'success',
-            confirmButtonText: 'Back to Website !'
-        });
-        <?php unset($_SESSION['status']) ?>
-    }
+        if (msgTxt != '') {
+            Swal.fire({
+                title: 'Thank You!',
+                text: msgTxt,
+                icon: 'success',
+                confirmButtonText: 'Back to Website !'
+            });
+            <?php unset($_SESSION['status']) ?>
+        }
     </script>
 </body>
 
