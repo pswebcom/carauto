@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>CarServ - Car Repair HTML Template</title>
+    <title>SpeedX - Auto Collision Center</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -116,9 +116,7 @@
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
-                                    <h6 class="text-white text-uppercase mb-3 animated slideInDown">
-                                        // Car Servicing //
-                                    </h6>
+
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
                                         Auto Body Collision Center
                                     </h1>
@@ -139,9 +137,7 @@
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
-                                    <h6 class="text-white text-uppercase mb-3 animated slideInDown">
-                                        // Car Servicing //
-                                    </h6>
+
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
                                         Quality is Perfection </h1>
                                     <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
@@ -232,7 +228,8 @@
                                         <i class="fa fa-check text-success me-3"></i>Modern
                                         Equipment
                                     </p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i
+                                    <a href="http://localhost:90/git/carauto-main/service.html"
+                                        class="btn btn-primary py-3 px-5 mt-3">Read More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -267,7 +264,8 @@
                                         <i class="fa fa-check text-success me-3"></i>Modern
                                         Equipment
                                     </p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i
+                                    <a href="http://localhost:90/git/carauto-main/service.html"
+                                        class="btn btn-primary py-3 px-5 mt-3">Read More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -302,7 +300,8 @@
                                         <i class="fa fa-check text-success me-3"></i>Modern
                                         Equipment
                                     </p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i
+                                    <a href="http://localhost:90/git/carauto-main/service.html"
+                                        class="btn btn-primary py-3 px-5 mt-3">Read More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -336,7 +335,8 @@
                                         <i class="fa fa-check text-success me-3"></i>Modern
                                         Equipment
                                     </p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i
+                                    <a href="http://localhost:90/git/carauto-main/service.html"
+                                        class="btn btn-primary py-3 px-5 mt-3">Read More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -374,9 +374,9 @@
                         Your Auto Care
                     </h1>
                     <p class="mb-4">
-                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-                        lorem sit clita duo justo magna dolore erat amet
+                        Speedx is the ultimate destination for all your auto care needs, offering top-notch services,
+                        skilled technicians, premium parts, and outstanding customer service to ensure your vehicle
+                        stays in perfect condition, safe, and running smoothly on every journey you take.
                     </p>
                     <div class="row g-4 mb-3 pb-3">
                         <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
@@ -387,7 +387,7 @@
                                 </div>
                                 <div class="ps-3">
                                     <h6>Professional & Expert</h6>
-                                    <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                                    <span>Our team is professional and expert in delivering quality service.</span>
                                 </div>
                             </div>
                         </div>
@@ -399,7 +399,7 @@
                                 </div>
                                 <div class="ps-3">
                                     <h6>Quality Servicing Center</h6>
-                                    <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                                    <span>We are your trusted, reliable, and quality servicing center always.</span>
                                 </div>
                             </div>
                         </div>
@@ -411,137 +411,20 @@
                                 </div>
                                 <div class="ps-3">
                                     <h6>Awards Winning Workers</h6>
-                                    <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                                    <span>Our award-winning workers deliver exceptional service with skill and
+                                        dedication.</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a href="" class="btn btn-primary py-3 px-5">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                    <a href="http://localhost:90/git/carauto-main/about.html" class="btn btn-primary py-3 px-5">Read
+                        More<i class="fa fa-arrow-right ms-3"></i></a>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
 
-    <!-- Service Start -->
-
-    <div class="container-xxl">
-        <div class="container">
-            <div class="row g-2 mb-2">
-                <div class="macol col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="pcol d-flex bg-light py-5 px-4">
-                        <i class="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
-                        <div class="ps-4">
-                            <h5 class="mb-3">Collision Repair for Cars & SUVs</h5>
-                            <p>
-                                Accidents happen unexpectedly and can be a major
-                                inconvenience. However, at Speedx, we ensure they don’t
-                                disrupt your driving experience. Our expert team specializes
-                                in restoring your car or SUV to its pristine condition,
-                                getting you back on the road with clarity and full confidence.
-                            </p>
-                            <!-- <a class="text-secondary border-bottom" href="">Read More</a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="macol col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="pcol d-flex bg-light py-5 px-4">
-                        <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
-                        <div class="ps-4">
-                            <h5 class="mb-3">
-                                Professional Auto Glass & Chip Repair Services
-                            </h5>
-                            <p>
-                                In the world of auto body repair, Speedx Brampton is a symbol
-                                of unmatched expertise. With over 15 years of refining our
-                                craft, we have perfected the art of auto glass repair,
-                                ensuring precision, durability, and clarity in every service
-                                we provide.
-                            </p>
-                            <!-- <a class="text-secondary border-bottom" href="">Read More</a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="macol col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="pcol d-flex bg-light py-5 px-4">
-                        <i class="fa fa-paint-brush fa-3x text-primary flex-shrink-0"></i>
-                        <div class="ps-4">
-                            <h5 class="mb-3">Paintless Dent & Scratch Removal</h5>
-                            <p>
-                                Speed X’s ultra-fast Scratch & Dent Repair service is designed
-                                for quick and efficient removal of scratches and dents from
-                                your car’s body. This specialized service not only restores
-                                your car’s flawless appearance but also enhances its overall
-                                value.
-                            </p>
-                            <!-- <a class="text-secondary border-bottom" href="">Read More</a> -->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- </div>
-    </div> -->
-                <!-- <div class="container-xxl">
-      <div class="container py-2"> -->
-                <!-- <div class="row g-2"> -->
-                <div class="macol col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="pcol d-flex bg-light py-5 px-4">
-                        <i class="fa fa-shuttle-van fa-3x text-primary flex-shrink-0"></i>
-                        <div class="ps-4">
-                            <h5 class="mb-3">Expert Fleet Accident and Body Repair Services</h5>
-                            <p>
-                                Auto restoration requires a high level of expertise in repair and refurbishment.
-                                Owning
-                                a vintage car is not just a privilege but a source of immense pride. We understand
-                                your
-                                passion for preserving its timeless beauty and are dedicated to keeping it in
-                                pristine
-                                condition.
-                            </p>
-                            <!-- <a class="text-secondary border-bottom" href="">Read More</a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="macol col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="pcol d-flex bg-light bg-light py-5 px-4">
-                        <i class="fa fa-plug fa-3x text-primary flex-shrink-0"></i>
-                        <div class="ps-4">
-                            <h5 class="mb-3">
-                                Personalized Vehicle Upgrades & Complete Redesigns
-                            </h5>
-                            <p>
-                                At The SpeedX, we bring your vision to life. Whether you’re looking for subtle
-                                enhancements or a complete transformation, we specialize in vehicle modifications
-                                like
-                                Color-Coded Bodywork.
-                            </p>
-                            <!-- <a class="text-secondary border-bottom" href="">Read More</a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="macol col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="pcol d-flex bg-light py-5 px-4">
-                        <i class="fa fa-car-crash fa-3x text-primary flex-shrink-0"></i>
-                        <div class="ps-4">
-                            <h5 class="mb-3">Full Vintage Car Restoration</h5>
-                            <p>
-                                Auto restoration is a specialized craft that requires precision and expertise in
-                                repair
-                                and refurbishment. Owning a vintage car is a true source of pride and joy, and we
-                                fully
-                                appreciate your passion for maintaining its timeless beauty and originality.
-                            </p>
-                            <!-- <a class="text-secondary border-bottom" href="">Read More</a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <!-- Service End -->
 
     <!-- Fact Start -->
     <!-- <div class="container-fluid fact bg-dark my-5 py-5">
@@ -805,16 +688,16 @@
     <!-- Testimonial End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-light footer pt-5  wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2">
-                        <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+                        <i class="fa fa-map-marker-alt me-3"></i>181 Rutherford Road S Unit-11 Brampton
                     </p>
                     <p class="mb-2">
-                        <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+                        <i class="fa fa-phone-alt me-3"></i>+416 277 9221
                     </p>
                     <p class="mb-2">
                         <i class="fa fa-envelope me-3"></i>info@example.com
@@ -826,7 +709,7 @@
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Opening Hours</h4>
                     <h6 class="text-light">Monday - Friday:</h6>
                     <p class="mb-2">09.00 AM - 07.00 PM</p>
@@ -835,15 +718,15 @@
                     <h6 class="text-light">Sunday:</h6>
                     <p class="mb-0">10.00 AM - 05.00 PM</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Diagnostic Test</a>
-                    <a class="btn btn-link" href="">Engine Servicing</a>
-                    <a class="btn btn-link" href="">Tires Replacement</a>
-                    <a class="btn btn-link" href="">Oil Changing</a>
-                    <a class="btn btn-link" href="">Vacuam Cleaning</a>
+                    <p class="">Diagnostic Test</p>
+                    <p class="" href="">Automobile Paint</p>
+                    <p class="" href="">Auto Glass Repair</p>
+                    <p class="" href="">Car Washing</p>
+                    <p class="" href="">Towing Service</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px">
@@ -853,31 +736,10 @@
                             SignUp
                         </button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All
-                        Right Reserved.
 
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By
-                        <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- Footer End -->
 
