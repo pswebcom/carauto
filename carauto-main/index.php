@@ -127,9 +127,6 @@
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
                                         Auto Body Collision Center
                                     </h1>
-                                    <a href="https://pixlbyte.info/service.html"
-                                        class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
-                                            class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                                     <!-- <img class="img-fluid" src="img/carousel-.png" alt="" /> -->
@@ -171,6 +168,9 @@
     </div>
     <!-- Carousel End -->
     <!-- //*************************************** -->
+
+
+
 
     <!-- Service Start -->
     <!-- <div class="container-xxl service py-5">
@@ -377,11 +377,11 @@
                 </div>
                 <div class="col-lg-6">
                     <h1 class="mb-4">
-                        <span class="text-primary">Speedx</span> Is The Best Place For
+                        <span class="text-primary">SpeedX</span> Is The Best Place For
                         Your Auto Care
                     </h1>
                     <p class="mb-4">
-                        Speedx is the ultimate destination for all your auto care needs, offering top-notch services,
+                        SpeedX is the ultimate destination for all your auto care needs, offering top-notch services,
                         skilled technicians, premium parts, and outstanding customer service to ensure your vehicle
                         stays in perfect condition, safe, and running smoothly on every journey you take.
                     </p>
@@ -476,8 +476,153 @@
 
 
 
+    <div id="slideshow">
+
+        Work Images <h1></h1>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides div1">
+                <img src="./attachments/IMG-20250406-WA0000.jpg" alt="">
+            </div>
+
+            <div class="mySlides div2">
+                <img src="./attachments/IMG-20250406-WA0001.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0002.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0003.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0004.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0005.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0006.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0007.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0008.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0009.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0010.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0011.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0012.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0013.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0014.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0015.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0016.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0017.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0018.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0019.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0020.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0021.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0022.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0023.jpg" alt="">
+
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250406-WA0024.jpg" alt="">
+
+            </div>
+
+            <a onclick="plusSlides(-1)" class="prev">&#10094</a>
+            <a onclick="plusSlides(1)" class="next">&#10095</a>>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
     <!-- Booking Start -->
-    <div id="booking" class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id=" booking" class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
@@ -486,7 +631,7 @@
                             Certified and Award Winning Car Repair Service Provider
                         </h1>
                         <p class="text-white mb-0">
-                            Looking for reliable collision repair nearby? Your search ends here. Auto Hut in Brampton is
+                            Looking for reliable collision repair nearby? Your search ends here. SpeedXin Brampton is
                             known for outstanding service and trusted reviews, making us the preferred choice for all
                             your auto repair needs—from minor dent fixes to detailed accident repair estimates. Our
                             expert frame repair technicians are ready to help.
@@ -669,7 +814,7 @@
                     <!-- <p>Profession</p> -->
                     <div class="testimonial-text bg-light text-center p-4">
                         <p class="mb-0">
-                            I got my 2024 honda crv repaired from speedx auto collision , service is beyond imagination
+                            I got my 2024 honda crv repaired from SpeedX auto collision , service is beyond imagination
                             very reasonable and professional service highly recommended if u got into accident or any
                             kind of body repair.
                         </p>
@@ -776,18 +921,18 @@
     <script src="js/main.js"></script>
 
     <script>
-        var msgTxt =
-            "<?= $_SESSION['status'] ?? ''; ?>";
+    var msgTxt =
+        "<?= $_SESSION['status'] ?? ''; ?>";
 
-        if (msgTxt != '') {
-            Swal.fire({
-                title: 'Thank You!',
-                text: msgTxt,
-                icon: 'success',
-                confirmButtonText: 'Back to Website !'
-            });
-            <?php unset($_SESSION['status']) ?>
-        }
+    if (msgTxt != '') {
+        Swal.fire({
+            title: 'Thank You!',
+            text: msgTxt,
+            icon: 'success',
+            confirmButtonText: 'Back to Website !'
+        });
+        <?php unset($_SESSION['status']) ?>
+    }
     </script>
 </body>
 

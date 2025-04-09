@@ -229,12 +229,17 @@
   #header-carousel .carousel-item img {
     position: absolute;
     width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+    height: auto !important;
+    max-height: 100vh !important;
+    object-fit: cover !important;
   }
 }
 
 @media (max-width: 368px) {
+  #header-carousel .carousel-item {
+    max-height: 150px !important;
+  }
+
   .logo {
     width: 180px !important;
   }
@@ -487,3 +492,70 @@ input[type="file"] {
 .txtarea {
   margin-top: 0px !important;
 }
+
+#slideshow {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.slideshow-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+.div1,
+.div2,
+.div3 {
+  height: 700px;
+  width: 800px;
+  /* background-color: red;
+  border: 1px solid black; */
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.div1 img,
+.div2 img,
+.div3 img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.slideshow-container .prev,
+.slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  font-size: 5rem;
+}
+
+.slideshow-container .prev {
+  left: 1rem;
+  border-radius: 0 3px 3px 0;
+}
+
+.slideshow-container .next {
+  right: 1rem;
+}
+
+/* .mySlides {
+  height: 700px;
+  width: 500px;
+  background-color: red;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.mySlides img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+/* background-size: cover; */
+/* } */
