@@ -478,7 +478,9 @@
 
     <div id="slideshow">
 
-        Work Images <h1></h1>
+        <div class="text-center">
+            <h1 class="mb-5">Our Work!</h1>
+        </div>
 
         <div class="slideshow-container">
 
@@ -607,7 +609,7 @@
             </div>
 
             <a onclick="plusSlides(-1)" class="prev">&#10094</a>
-            <a onclick="plusSlides(1)" class="next">&#10095</a>>
+            <a onclick="plusSlides(1)" class="next">&#10095</a>
 
 
         </div>

@@ -501,7 +501,7 @@ input[type="file"] {
 
 .slideshow-container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 800px;
   text-align: center;
   /* border: 1px solid red; */
   position: relative;
@@ -510,8 +510,8 @@ input[type="file"] {
 .div1,
 .div2,
 .div3 {
-  height: 700px;
-  width: 800px;
+  height: 650px;
+  min-width: 200px;
   /* background-color: red;
   border: 1px solid black; */
   margin-bottom: 10px;
