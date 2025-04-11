@@ -608,8 +608,10 @@
 
             </div>
 
-            <a onclick="plusSlides(-1)" class="prev">&#10094</a>
-            <a onclick="plusSlides(1)" class="next">&#10095</a>
+            <a onclick="plusSlides(-1)" class="prev">
+                <i class="slider-btn">&#10094</i>
+            </a>
+            <a onclick=" plusSlides(1)" class="next"><i class="slider-btn">&#10095</i></a>
 
 
         </div>
