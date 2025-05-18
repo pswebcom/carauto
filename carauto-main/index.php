@@ -86,7 +86,7 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0 dark">
         <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5 ">
 
             <!-- <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>CarServ</h2> -->
@@ -148,9 +148,9 @@
                                         class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
-                                <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                    <!-- <img class="img-fluid" src="img/carousel-2.png" alt="" /> -->
-                                </div>
+                                                    <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
+                                                        <!-- <img class="img-fluid" src="img/carousel-2.png" alt="" /> -->
+                                                    </div>
                             </div>
                         </div>
                     </div>
