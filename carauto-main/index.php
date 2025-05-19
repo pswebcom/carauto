@@ -106,7 +106,7 @@
                 <a href="service.html" class="nav-item nav-link">Our Services</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
-            <a href="https://pixlbyte.info/index.php#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get
+            <a href="https://speedxautocollision.ca/index.php#booking" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get
                 A
                 Quote<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
@@ -119,14 +119,19 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="w-100" src="img/img104.jpeg" alt="Image" />
-                    <div class="carousel-caption d-flex align-items-center">
+                    <div class="carousel-caption d-flex align-items-center mamamia">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
 
-                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
+                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown mamamia-heading">
                                         Auto Body Collision Center
                                     </h1>
+
+                                        <a href="https://speedxautocollision.ca/service.html"
+                                           class="btn btn-primary py-3 px-5 animated slideInDown mamamia-btn">Learn More<i
+                                                    class="fa fa-arrow-right ms-3"></i></a>
+
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                                     <!-- <img class="img-fluid" src="img/carousel-.png" alt="" /> -->
@@ -137,14 +142,14 @@
                 </div>
                 <div class="carousel-item">
                     <img class="w-100" src="img/img100.jpeg" alt="Image" />
-                    <div class="carousel-caption d-flex align-items-center">
+                    <div class="carousel-caption d-flex align-items-center mamamia">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
 
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
                                         Quality is Perfection </h1>
-                                    <a href="https://pixlbyte.info/service.html"
+                                    <a href="https://speedxautocollision.ca/service.html"
                                         class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i
                                             class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
@@ -424,7 +429,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://pixlbyte.info/about.html" class="btn btn-primary py-3 px-5">Read
+                    <a href="https://speedxautocollision.ca/about.html" class="btn btn-primary py-3 px-5">Read
                         More<i class="fa fa-arrow-right ms-3"></i></a>
                 </div>
             </div>
@@ -490,12 +495,10 @@
 
             <div class="mySlides div2">
                 <img src="./attachments/IMG-20250406-WA0001.jpg" alt="">
-
             </div>
 
             <div class="mySlides div3">
                 <img src="./attachments/IMG-20250406-WA0002.jpg" alt="">
-
             </div>
 
             <div class="mySlides div3">
@@ -600,12 +603,105 @@
 
             <div class="mySlides div3">
                 <img src="./attachments/IMG-20250406-WA0023.jpg" alt="">
-
             </div>
 
             <div class="mySlides div3">
                 <img src="./attachments/IMG-20250406-WA0024.jpg" alt="">
+            </div>
 
+<!--            ____________________________________-->
+
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0001.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0002.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0003.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0004.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0005.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0006.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0008.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0009.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0010.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0011.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0012.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0013.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0014.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0015.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0016.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0017.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0018.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0019.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0020.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0021.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0022.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0023.jpg" alt="">
+            </div>
+
+            <div class="mySlides div3">
+                <img src="./attachments/IMG-20250518-WA0024.jpg" alt="">
             </div>
 
             <a onclick="plusSlides(-1)" class="prev">
@@ -626,7 +722,7 @@
 
 
     <!-- Booking Start -->
-    <div id=" booking" class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id="booking" class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
@@ -882,7 +978,6 @@
                     <p class="">Collision Repair</p>
                     <p class="" href="">Automobile Paint</p>
                     <p class="" href="">Auto Glass Repair</p>
-                    <p class="" href="">Car Washing</p>
                     <p class="" href="">Towing Service</p>
                 </div>
                 <!-- <div class="col-lg-4 col-md-6">
