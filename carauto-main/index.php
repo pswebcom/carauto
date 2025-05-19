@@ -590,11 +590,11 @@
                 <img src="./attachments/IMG-20250406-WA0020.jpg" alt="">
 
             </div>
-
-            <div class="mySlides div3">
-                <img src="./attachments/IMG-20250406-WA0021.jpg" alt="">
-
-            </div>
+<!---->
+<!--            <div class="mySlides div3">-->
+<!--                <img src="./attachments/IMG-20250406-WA0021.jpg" alt="">-->
+<!---->
+<!--            </div>-->
 
             <div class="mySlides div3">
                 <img src="./attachments/IMG-20250406-WA0022.jpg" alt="">
@@ -612,9 +612,9 @@
 <!--            ____________________________________-->
 
 
-            <div class="mySlides div3">
-                <img src="./attachments/IMG-20250518-WA0001.jpg" alt="">
-            </div>
+<!--            <div class="mySlides div3">-->
+<!--                <img src="./attachments/IMG-20250518-WA0001.jpg" alt="">-->
+<!--            </div>-->
 
             <div class="mySlides div3">
                 <img src="./attachments/IMG-20250518-WA0002.jpg" alt="">
@@ -628,9 +628,9 @@
                 <img src="./attachments/IMG-20250518-WA0004.jpg" alt="">
             </div>
 
-            <div class="mySlides div3">
-                <img src="./attachments/IMG-20250518-WA0005.jpg" alt="">
-            </div>
+<!--            <div class="mySlides div3">-->
+<!--                <img src="./attachments/IMG-20250518-WA0005.jpg" alt="">-->
+<!--            </div>-->
 
             <div class="mySlides div3">
                 <img src="./attachments/IMG-20250518-WA0006.jpg" alt="">
@@ -684,9 +684,9 @@
                 <img src="./attachments/IMG-20250518-WA0019.jpg" alt="">
             </div>
 
-            <div class="mySlides div3">
-                <img src="./attachments/IMG-20250518-WA0020.jpg" alt="">
-            </div>
+<!--            <div class="mySlides div3">-->
+<!--                <img src="./attachments/IMG-20250518-WA0020.jpg" alt="">-->
+<!--            </div>-->
 
             <div class="mySlides div3">
                 <img src="./attachments/IMG-20250518-WA0021.jpg" alt="">
